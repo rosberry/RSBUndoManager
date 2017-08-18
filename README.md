@@ -6,7 +6,7 @@ RSBUndoManager is a lightweight helper with keyPath-based undo registration and 
 
 Prepare an instance of RSBUndoManager:
 ```objc
-    self.undoManager = [[RSBUndoManager alloc] init]
+self.undoManager = [[RSBUndoManager alloc] init]
 ```
 
 Register an undo action before change you want to be able to undo:
@@ -56,6 +56,12 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod "RSBUndoManager"
+```
+
+To install it via [Carthage](https://github.com/Carthage/Carthage), simply add the following line to you Cartfile:
+
+```
+github "rosberry/RSBUndoManager"
 ```
 
 ## Author
