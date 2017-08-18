@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'RSBUndoManager'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'Lightweight extension of NSUndoManager w/ keypath-based undo/redo registration & memory awareness.'
   s.description      = s.summary
   s.homepage         = 'https://github.com/rosberry/RSBUndoManager'
