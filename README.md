@@ -58,7 +58,7 @@ it, simply add the following line to your Podfile:
 pod "RSBUndoManager"
 ```
 
-To install it via [Carthage](https://github.com/Carthage/Carthage), simply add the following line to you Cartfile:
+To install it via [Carthage](https://github.com/Carthage/Carthage), simply add the following line to your Cartfile:
 
 ```
 github "rosberry/RSBUndoManager"
