@@ -1,0 +1,22 @@
+{
+  "name": "RSBUndoManager",
+  "version": "0.2.0",
+  "summary": "Lightweight extension of NSUndoManager w/ keypath-based undo/redo registration & memory awareness.",
+  "description": "Lightweight extension of NSUndoManager w/ keypath-based undo/redo registration & memory awareness.",
+  "homepage": "https://bitbucket.org/rosberryteam/rsbundomanager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Anton Kormakov": "anton.kormakov@rosberry.com"
+  },
+  "source": {
+    "git": "https://bitbucket.org/rosberryteam/rsbundomanager.git",
+    "tag": "0.2.0"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source_files": "RSBUndoManager/Classes/**/*"
+}

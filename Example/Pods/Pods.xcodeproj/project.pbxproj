@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03650EBFA8F180ED5265C1E988F15142 /* RSBUndoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC516B5C117BA4ABFA6FA7FC440E179 /* RSBUndoManager.m */; };
+		288DECB7DBE5665EF475C60E6BAB6CE2 /* RSBUndoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B4566F7C5D75C3D8BB204A04ACA50148 /* RSBUndoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DE9F29C59CB448B3A7F15327DDF615C /* Pods-RSBUndoManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB242C46060C8A05DF6378173A63024 /* Pods-RSBUndoManager_Example-dummy.m */; };
+		561928D98430BCB450096EC61894FA4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		575987111EBE1D2AC3F768A9B05EB7B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		881C93115A1FB12212BD9EB67F828855 /* RSBUndoManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E33E43164A5C7D26AC703A480A5D7131 /* RSBUndoManager-dummy.m */; };
+		9FA8D1F7693D93A91A385127C9847A9B /* Pods-RSBUndoManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1D551331FB0720FF7C3B4838D6BE71 /* Pods-RSBUndoManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFD49347C26C32A755ACDDFD891679FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B0EAEF2CCD23C451E5455F697045AFE0 /* Pods-RSBUndoManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D7682D6C55F3C58AC7C471F357ABC94 /* Pods-RSBUndoManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B462996FCB71E7727FFFC8DB6E44EFE8 /* RSBUndoProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B410B7786F15D5DC9325A9925FAD279 /* RSBUndoProxy.m */; };
+		B895BE58A7321DC128A48BCCF1ECA660 /* Pods-RSBUndoManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD40D4744F4431C6C80F427603CB0658 /* Pods-RSBUndoManager_Tests-dummy.m */; };
+		DC96D1FA78B018BD69920E521DF889D6 /* RSBUndoProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 343F431A5C1CA86F9305CB726F19CA72 /* RSBUndoProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA6D6B998F12389793892F365B8AE2C2 /* RSBUndoManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5126B3EA33251E4757162819F29E8AC5 /* RSBUndoManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFE0D8612CBD1223D22F84A7CAEA1486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14F00990C2AD70A26B9AA574884377BB;
+			remoteInfo = RSBUndoManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BFFD915C515190BAEE8DCE621FEA732 /* Pods-RSBUndoManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RSBUndoManager_Tests.modulemap"; sourceTree = "<group>"; };
+		19E206CBE18CFB2E8C3BD5A9777A2956 /* Pods-RSBUndoManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSBUndoManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2E02231BF3E8B1291499254EC7DC48DF /* Pods-RSBUndoManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RSBUndoManager_Example.modulemap"; sourceTree = "<group>"; };
+		343F431A5C1CA86F9305CB726F19CA72 /* RSBUndoProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RSBUndoProxy.h; sourceTree = "<group>"; };
+		3DAEFCF306823DA66DB0D9AF8E53A1DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E5B59750D63961091CEEED5449E2A44 /* RSBUndoManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSBUndoManager-prefix.pch"; sourceTree = "<group>"; };
+		47159865057DC5563857F1C180202916 /* Pods-RSBUndoManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSBUndoManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5126B3EA33251E4757162819F29E8AC5 /* RSBUndoManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSBUndoManager-umbrella.h"; sourceTree = "<group>"; };
+		544E7AEF2B8BCC0EF80BD4A27E0A02C9 /* RSBUndoManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSBUndoManager.xcconfig; sourceTree = "<group>"; };
+		5B410B7786F15D5DC9325A9925FAD279 /* RSBUndoProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RSBUndoProxy.m; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A1A7A081B435141FC1ED7B62FAADBB5 /* Pods-RSBUndoManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSBUndoManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7BB4FEC3D109F1D75A13A8A4E3B3B8E4 /* Pods-RSBUndoManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSBUndoManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7FC06404EAC351ACEE3DA0F1A7B51539 /* RSBUndoManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RSBUndoManager.modulemap; sourceTree = "<group>"; };
+		823F430A37AA2AA5589AD32837A2161D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		949F78C79BB3D99076EA83A2664F5E3E /* Pods-RSBUndoManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSBUndoManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C537BF6CF6DD57B2226E9FA86C6DEB1 /* Pods-RSBUndoManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSBUndoManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		9D7682D6C55F3C58AC7C471F357ABC94 /* Pods-RSBUndoManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RSBUndoManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		9F75E974C42CFF0CA45722246FA52D4C /* Pods-RSBUndoManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSBUndoManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ACB242C46060C8A05DF6378173A63024 /* Pods-RSBUndoManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSBUndoManager_Example-dummy.m"; sourceTree = "<group>"; };
+		B3158ED395B5811AA6F698F6DE0DBA64 /* RSBUndoManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RSBUndoManager.framework; path = RSBUndoManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4566F7C5D75C3D8BB204A04ACA50148 /* RSBUndoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RSBUndoManager.h; sourceTree = "<group>"; };
+		D5EA5A297331C944F7B703FD1E25624A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D818226750638FCD8842DDDD5258A74C /* Pods-RSBUndoManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSBUndoManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D8D9889269BC9BCC4747A7F928C6D9D6 /* Pods-RSBUndoManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSBUndoManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DA45791CDF8418BBFCC3D176F7AE9E0A /* Pods_RSBUndoManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RSBUndoManager_Example.framework; path = "Pods-RSBUndoManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1D551331FB0720FF7C3B4838D6BE71 /* Pods-RSBUndoManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RSBUndoManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DCC516B5C117BA4ABFA6FA7FC440E179 /* RSBUndoManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RSBUndoManager.m; sourceTree = "<group>"; };
+		DD40D4744F4431C6C80F427603CB0658 /* Pods-RSBUndoManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSBUndoManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		DDEC2EBC9FFD33FF4EC7336B407DCB56 /* Pods-RSBUndoManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSBUndoManager_Example-resources.sh"; sourceTree = "<group>"; };
+		E33E43164A5C7D26AC703A480A5D7131 /* RSBUndoManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSBUndoManager-dummy.m"; sourceTree = "<group>"; };
+		EAC487F5C27D8AFCF9AC166976EE4D58 /* Pods-RSBUndoManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSBUndoManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB93CFCFD1AB2C72490DD557A9CEC740 /* Pods-RSBUndoManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSBUndoManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FF67B79EE35D5E538B17CDF722C386DF /* Pods_RSBUndoManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RSBUndoManager_Tests.framework; path = "Pods-RSBUndoManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09811A2D9002E5037080F7B148AC89C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561928D98430BCB450096EC61894FA4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D449E0DB3966172B50B3E56646FEBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD49347C26C32A755ACDDFD891679FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FF3C65208A550B5C641B9E537543F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575987111EBE1D2AC3F768A9B05EB7B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F6699B56316073979D9061ED7E18AA1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B0FE14E7DEC5ADC02D3C60E6C5C87BF /* Pods-RSBUndoManager_Example */,
+				EE9D1186ED400D587B75320B04356633 /* Pods-RSBUndoManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		41C7F0B44757401FAF8FD203970F4F69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA45791CDF8418BBFCC3D176F7AE9E0A /* Pods_RSBUndoManager_Example.framework */,
+				FF67B79EE35D5E538B17CDF722C386DF /* Pods_RSBUndoManager_Tests.framework */,
+				B3158ED395B5811AA6F698F6DE0DBA64 /* RSBUndoManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B0FE14E7DEC5ADC02D3C60E6C5C87BF /* Pods-RSBUndoManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3DAEFCF306823DA66DB0D9AF8E53A1DE /* Info.plist */,
+				2E02231BF3E8B1291499254EC7DC48DF /* Pods-RSBUndoManager_Example.modulemap */,
+				FB93CFCFD1AB2C72490DD557A9CEC740 /* Pods-RSBUndoManager_Example-acknowledgements.markdown */,
+				EAC487F5C27D8AFCF9AC166976EE4D58 /* Pods-RSBUndoManager_Example-acknowledgements.plist */,
+				ACB242C46060C8A05DF6378173A63024 /* Pods-RSBUndoManager_Example-dummy.m */,
+				7BB4FEC3D109F1D75A13A8A4E3B3B8E4 /* Pods-RSBUndoManager_Example-frameworks.sh */,
+				DDEC2EBC9FFD33FF4EC7336B407DCB56 /* Pods-RSBUndoManager_Example-resources.sh */,
+				9D7682D6C55F3C58AC7C471F357ABC94 /* Pods-RSBUndoManager_Example-umbrella.h */,
+				19E206CBE18CFB2E8C3BD5A9777A2956 /* Pods-RSBUndoManager_Example.debug.xcconfig */,
+				6A1A7A081B435141FC1ED7B62FAADBB5 /* Pods-RSBUndoManager_Example.release.xcconfig */,
+			);
+			name = "Pods-RSBUndoManager_Example";
+			path = "Target Support Files/Pods-RSBUndoManager_Example";
+			sourceTree = "<group>";
+		};
+		6D4BF1D7829270108A8344248E57D9D3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E3F17295D7CD11D7EFFCB7B0B8308A9 /* RSBUndoManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6D4BF1D7829270108A8344248E57D9D3 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				41C7F0B44757401FAF8FD203970F4F69 /* Products */,
+				1F6699B56316073979D9061ED7E18AA1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		876D90BC148CC0C5E9E96A888C02AC56 /* RSBUndoManager */ = {
+			isa = PBXGroup;
+			children = (
+				D743772B752DC815FA56CF88382F9523 /* Classes */,
+			);
+			name = RSBUndoManager;
+			path = RSBUndoManager;
+			sourceTree = "<group>";
+		};
+		9E3F17295D7CD11D7EFFCB7B0B8308A9 /* RSBUndoManager */ = {
+			isa = PBXGroup;
+			children = (
+				876D90BC148CC0C5E9E96A888C02AC56 /* RSBUndoManager */,
+				E48067C1FFD436E2046366DDD2692B12 /* Support Files */,
+			);
+			name = RSBUndoManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D743772B752DC815FA56CF88382F9523 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B4566F7C5D75C3D8BB204A04ACA50148 /* RSBUndoManager.h */,
+				DCC516B5C117BA4ABFA6FA7FC440E179 /* RSBUndoManager.m */,
+				343F431A5C1CA86F9305CB726F19CA72 /* RSBUndoProxy.h */,
+				5B410B7786F15D5DC9325A9925FAD279 /* RSBUndoProxy.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E48067C1FFD436E2046366DDD2692B12 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				823F430A37AA2AA5589AD32837A2161D /* Info.plist */,
+				7FC06404EAC351ACEE3DA0F1A7B51539 /* RSBUndoManager.modulemap */,
+				544E7AEF2B8BCC0EF80BD4A27E0A02C9 /* RSBUndoManager.xcconfig */,
+				E33E43164A5C7D26AC703A480A5D7131 /* RSBUndoManager-dummy.m */,
+				3E5B59750D63961091CEEED5449E2A44 /* RSBUndoManager-prefix.pch */,
+				5126B3EA33251E4757162819F29E8AC5 /* RSBUndoManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RSBUndoManager";
+			sourceTree = "<group>";
+		};
+		EE9D1186ED400D587B75320B04356633 /* Pods-RSBUndoManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D5EA5A297331C944F7B703FD1E25624A /* Info.plist */,
+				0BFFD915C515190BAEE8DCE621FEA732 /* Pods-RSBUndoManager_Tests.modulemap */,
+				9F75E974C42CFF0CA45722246FA52D4C /* Pods-RSBUndoManager_Tests-acknowledgements.markdown */,
+				47159865057DC5563857F1C180202916 /* Pods-RSBUndoManager_Tests-acknowledgements.plist */,
+				DD40D4744F4431C6C80F427603CB0658 /* Pods-RSBUndoManager_Tests-dummy.m */,
+				D818226750638FCD8842DDDD5258A74C /* Pods-RSBUndoManager_Tests-frameworks.sh */,
+				9C537BF6CF6DD57B2226E9FA86C6DEB1 /* Pods-RSBUndoManager_Tests-resources.sh */,
+				DB1D551331FB0720FF7C3B4838D6BE71 /* Pods-RSBUndoManager_Tests-umbrella.h */,
+				949F78C79BB3D99076EA83A2664F5E3E /* Pods-RSBUndoManager_Tests.debug.xcconfig */,
+				D8D9889269BC9BCC4747A7F928C6D9D6 /* Pods-RSBUndoManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-RSBUndoManager_Tests";
+			path = "Target Support Files/Pods-RSBUndoManager_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		032F2686EB96E58BE6777CBA95C7F5F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA8D1F7693D93A91A385127C9847A9B /* Pods-RSBUndoManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		544EF603B25D672AFE993A3DE4A65459 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6D6B998F12389793892F365B8AE2C2 /* RSBUndoManager-umbrella.h in Headers */,
+				288DECB7DBE5665EF475C60E6BAB6CE2 /* RSBUndoManager.h in Headers */,
+				DC96D1FA78B018BD69920E521DF889D6 /* RSBUndoProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8E791BEAE0C570016C9A6C5088FC1AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0EAEF2CCD23C451E5455F697045AFE0 /* Pods-RSBUndoManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13FA75D6D32F569B91F4890EE9BFEABE /* Pods-RSBUndoManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43E7CC0A2DAC81579697AB47CC07FA6D /* Build configuration list for PBXNativeTarget "Pods-RSBUndoManager_Example" */;
+			buildPhases = (
+				882D292E746C85B6A5C0D87F38F31CDD /* Sources */,
+				E1FF3C65208A550B5C641B9E537543F4 /* Frameworks */,
+				A8E791BEAE0C570016C9A6C5088FC1AC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C298754A0F11688BD0BB8C088ECBBBBE /* PBXTargetDependency */,
+			);
+			name = "Pods-RSBUndoManager_Example";
+			productName = "Pods-RSBUndoManager_Example";
+			productReference = DA45791CDF8418BBFCC3D176F7AE9E0A /* Pods_RSBUndoManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		14F00990C2AD70A26B9AA574884377BB /* RSBUndoManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49BAA12EAB160D051FE1DE999B83C6C /* Build configuration list for PBXNativeTarget "RSBUndoManager" */;
+			buildPhases = (
+				44694500A33BF4C397EAAACB152377D6 /* Sources */,
+				42D449E0DB3966172B50B3E56646FEBB /* Frameworks */,
+				544EF603B25D672AFE993A3DE4A65459 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSBUndoManager;
+			productName = RSBUndoManager;
+			productReference = B3158ED395B5811AA6F698F6DE0DBA64 /* RSBUndoManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		92AB41715357FF0F86C23D523AD3319F /* Pods-RSBUndoManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32375D0171CC96E96AA03E7D4F66EB28 /* Build configuration list for PBXNativeTarget "Pods-RSBUndoManager_Tests" */;
+			buildPhases = (
+				7509F120B37F4E69243154666C841D8A /* Sources */,
+				09811A2D9002E5037080F7B148AC89C8 /* Frameworks */,
+				032F2686EB96E58BE6777CBA95C7F5F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RSBUndoManager_Tests";
+			productName = "Pods-RSBUndoManager_Tests";
+			productReference = FF67B79EE35D5E538B17CDF722C386DF /* Pods_RSBUndoManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 41C7F0B44757401FAF8FD203970F4F69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13FA75D6D32F569B91F4890EE9BFEABE /* Pods-RSBUndoManager_Example */,
+				92AB41715357FF0F86C23D523AD3319F /* Pods-RSBUndoManager_Tests */,
+				14F00990C2AD70A26B9AA574884377BB /* RSBUndoManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44694500A33BF4C397EAAACB152377D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881C93115A1FB12212BD9EB67F828855 /* RSBUndoManager-dummy.m in Sources */,
+				03650EBFA8F180ED5265C1E988F15142 /* RSBUndoManager.m in Sources */,
+				B462996FCB71E7727FFFC8DB6E44EFE8 /* RSBUndoProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7509F120B37F4E69243154666C841D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B895BE58A7321DC128A48BCCF1ECA660 /* Pods-RSBUndoManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882D292E746C85B6A5C0D87F38F31CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE9F29C59CB448B3A7F15327DDF615C /* Pods-RSBUndoManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C298754A0F11688BD0BB8C088ECBBBBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSBUndoManager;
+			target = 14F00990C2AD70A26B9AA574884377BB /* RSBUndoManager */;
+			targetProxy = FFE0D8612CBD1223D22F84A7CAEA1486 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		43D4A5067E3612EDE255C0C90F04B340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 544E7AEF2B8BCC0EF80BD4A27E0A02C9 /* RSBUndoManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RSBUndoManager/RSBUndoManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSBUndoManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSBUndoManager/RSBUndoManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RSBUndoManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D00297DF843648674A6BD3DBDB630C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949F78C79BB3D99076EA83A2664F5E3E /* Pods-RSBUndoManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RSBUndoManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSBUndoManager_Tests/Pods-RSBUndoManager_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RSBUndoManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		80E6617FD829A6547E864C7573EE0382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 544E7AEF2B8BCC0EF80BD4A27E0A02C9 /* RSBUndoManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RSBUndoManager/RSBUndoManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSBUndoManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSBUndoManager/RSBUndoManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RSBUndoManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E1976884D7854DE094F94BEF6C4EAA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8D9889269BC9BCC4747A7F928C6D9D6 /* Pods-RSBUndoManager_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RSBUndoManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSBUndoManager_Tests/Pods-RSBUndoManager_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RSBUndoManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC027DF0D214CD74AA006F71726D8B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A1A7A081B435141FC1ED7B62FAADBB5 /* Pods-RSBUndoManager_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RSBUndoManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSBUndoManager_Example/Pods-RSBUndoManager_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RSBUndoManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3AF8897F3CA9E9BF555F6C9B6EA2E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19E206CBE18CFB2E8C3BD5A9777A2956 /* Pods-RSBUndoManager_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RSBUndoManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSBUndoManager_Example/Pods-RSBUndoManager_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RSBUndoManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32375D0171CC96E96AA03E7D4F66EB28 /* Build configuration list for PBXNativeTarget "Pods-RSBUndoManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D00297DF843648674A6BD3DBDB630C1 /* Debug */,
+				8E1976884D7854DE094F94BEF6C4EAA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43E7CC0A2DAC81579697AB47CC07FA6D /* Build configuration list for PBXNativeTarget "Pods-RSBUndoManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3AF8897F3CA9E9BF555F6C9B6EA2E02 /* Debug */,
+				BC027DF0D214CD74AA006F71726D8B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D49BAA12EAB160D051FE1DE999B83C6C /* Build configuration list for PBXNativeTarget "RSBUndoManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E6617FD829A6547E864C7573EE0382 /* Debug */,
+				43D4A5067E3612EDE255C0C90F04B340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

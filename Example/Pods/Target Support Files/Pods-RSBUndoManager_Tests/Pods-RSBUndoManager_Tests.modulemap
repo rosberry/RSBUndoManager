@@ -1,0 +1,6 @@
+framework module Pods_RSBUndoManager_Tests {
+  umbrella header "Pods-RSBUndoManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

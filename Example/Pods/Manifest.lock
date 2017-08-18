@@ -1,0 +1,16 @@
+PODS:
+  - RSBUndoManager (0.2.0)
+
+DEPENDENCIES:
+  - RSBUndoManager (from `../`)
+
+EXTERNAL SOURCES:
+  RSBUndoManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RSBUndoManager: b3f11441cda3c6c7f2af73a920e8cf5b6a9dfadb
+
+PODFILE CHECKSUM: 5662dc441deae982531a2c7461bc3d3b63e20cb7
+
+COCOAPODS: 1.2.1
